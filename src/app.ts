@@ -36,6 +36,8 @@ app.use(
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
+app.engine('.html', require('ejs').__express)
+app.set('view engine', 'html')
 // const corsOptions = {
 //   origin: config.corsOrigins,
 //   credentials: true,
