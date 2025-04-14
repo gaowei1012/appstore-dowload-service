@@ -16,7 +16,7 @@ for (var devName in interfaces) {
 }
 
 const config = {
-  port: 4200,
+  port: 5200,
   host: IPAddress,
   database: {
     DATABASE: "timeEvent",

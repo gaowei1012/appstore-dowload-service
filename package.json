@@ -8,6 +8,9 @@
     "start:test": "NODE_ENV=test nodemon --exec ts-node src/app.ts",
     "init": "./scripts/init.sh"
   },
+  "_moduleAliases": {
+    "@": "./src"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {

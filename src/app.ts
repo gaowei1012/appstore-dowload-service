@@ -2,7 +2,7 @@
  * @Author: gaowei1012 gyb2020018@163.com
  * @Date: 2025-01-06 15:23:23
  * @LastEditors: gaowei1012 gyb2020018@163.com
- * @LastEditTime: 2025-03-03 17:57:22
+ * @LastEditTime: 2025-04-14 16:20:08
  * @FilePath: /eventservice/src/app.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -55,7 +55,7 @@ console.table([
 
 app.use(cors())
 
-swaggerInstall(app)
+// swaggerInstall(app)
 
 app.use(function (req, res, next) {
   next(createError(404))
