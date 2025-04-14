@@ -29,6 +29,7 @@
     "nodemailer": "^6.9.16",
     "redis": "^3.1.2",
     "sequelize": "^6.32.1",
+    "serve-static": "^2.2.0",
     "svg-captcha": "^1.4.0",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1",
